@@ -2,14 +2,15 @@ import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 import { Stack } from "expo-router";
 
-export default function RootLayout() {
+const _layout = () => {
   return (
     <Stack screenOptions={{ headerShown: false }}>
-      {/* <Stack.Screen name="(auth)" /> */}
-      <Stack.Screen name="(tabs)" />
-      <Stack.Screen name="screens" />
+      <Stack.Screen name="sighup" />
+      <Stack.Screen name="Welcome" />
     </Stack>
   );
-}
+};
+
+export default _layout;
 
 const styles = StyleSheet.create({});
