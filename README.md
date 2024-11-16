@@ -1,4 +1,4 @@
-# CharArray And Messaging App
+# CharArray an Messaging App
 
 It was the frontend of App development is in progress
 
