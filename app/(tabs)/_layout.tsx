@@ -123,10 +123,11 @@ export default function TabsLayout() {
             tabBarIcon: () => (
               <Pressable
                 style={{
-                  width: "100%",
-                  height: "100%",
+                  width: "420%",
+                  height: "220%",
                   justifyContent: "center",
                   alignItems: "center",
+                  marginTop: 20,
                 }}
                 onPress={() => setModalVisible(true)}
               >
@@ -138,6 +139,7 @@ export default function TabsLayout() {
                     height: "80%",
                     justifyContent: "center",
                     alignItems: "center",
+                    marginTop: 2,
                     borderRadius: 25,
                   }}
                 >
